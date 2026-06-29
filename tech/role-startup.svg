@@ -1,10 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="180" viewBox="0 0 360 180">
   <defs>
-    <radialGradient id="rg" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#4c1d95"/>
-      <stop offset="1" stop-color="#0d0d1a"/>
-    </radialGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1a0533"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6366f133"/>
+      <stop offset="1" stop-color="#4f46e533"/>
+    </linearGradient>
   </defs>
-  <rect width="150" height="150" rx="20" fill="url(#rg)"/>
-  <text x="75" y="95" text-anchor="middle" font-size="65" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🚀</text>
+  <rect width="360" height="180" fill="url(#bg)" rx="16"/>
+  <rect width="360" height="180" fill="none" stroke="#6366f150" stroke-width="1.5" rx="16"/>
+  <rect width="360" height="80" fill="url(#glow)" rx="16"/>
+  <rect y="68" width="360" height="12" fill="url(#glow)"/>
+
+  <!-- Icon -->
+  <text x="28" y="58" font-size="42" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🚀</text>
+
+  <!-- Title -->
+  <text x="88" y="42" font-size="17" font-weight="700" fill="white" font-family="monospace">Startup Founder</text>
+  <line x1="88" y1="52" x2="340" y2="52" stroke="#6366f140" stroke-width="1"/>
+
+  <!-- Accent dot -->
+  <circle cx="340" cy="24" r="5" fill="#6366f1" opacity="0.7"/>
+  <circle cx="340" cy="24" r="10" fill="#6366f1" opacity="0.15"/>
+
+  <!-- Tags -->
+  
+        <rect x="15" y="128" width="80" height="22" rx="11" fill="#6366f118" stroke="#6366f140" stroke-width="1"/>
+        <text x="55" y="143" font-size="9.5" fill="#6366f1" font-family="monospace" text-anchor="middle">Vision</text>
+        <rect x="103" y="128" width="80" height="22" rx="11" fill="#6366f118" stroke="#6366f140" stroke-width="1"/>
+        <text x="143" y="143" font-size="9.5" fill="#6366f1" font-family="monospace" text-anchor="middle">Product</text>
+        <rect x="191" y="128" width="80" height="22" rx="11" fill="#6366f118" stroke="#6366f140" stroke-width="1"/>
+        <text x="231" y="143" font-size="9.5" fill="#6366f1" font-family="monospace" text-anchor="middle">Scale</text>
+        <rect x="279" y="128" width="80" height="22" rx="11" fill="#6366f118" stroke="#6366f140" stroke-width="1"/>
+        <text x="319" y="143" font-size="9.5" fill="#6366f1" font-family="monospace" text-anchor="middle">Impact</text>
+
+  <!-- Bottom glow line -->
+  <rect x="40" y="170" width="280" height="2" rx="1" fill="#6366f1" opacity="0.3"/>
 </svg>
