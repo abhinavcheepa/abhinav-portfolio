@@ -76,7 +76,7 @@ const Hero = () => {
             className="font-mono text-xs tracking-widest text-cyan-400 uppercase mb-4 flex items-center gap-3"
           >
             <span className="w-8 h-px bg-cyan-400" />
-            IIT Bombay · AI Researcher
+            MITS Gwalior · AI Researcher
           </motion.div>
 
           <motion.h1

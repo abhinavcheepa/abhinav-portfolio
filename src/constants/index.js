@@ -99,7 +99,7 @@ export const experiences = [
   },
   {
     title: "B.Tech Undergraduate",
-    company: "IIT Bombay",
+    company: "MITS Gwalior",
     date: "2024 — Present",
     desc: "Pursuing undergraduate engineering at one of India's premier institutions. Deep focus on AI, ML, and computational linguistics.",
     icon: "🎓",

@@ -3,7 +3,7 @@ const Footer = () => (
     <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
       <div className="font-mono text-sm text-cyan-400 tracking-widest">&lt;abhinav.ai /&gt;</div>
       <div className="font-mono text-xs text-slate-600">
-        © 2026 Abhinav Cheepa · IIT Bombay · Built with React + Three.js
+        © 2026 Abhinav Cheepa · MITS Gwalior · Built with React + Three.js
       </div>
       <div className="flex gap-6">
         {[

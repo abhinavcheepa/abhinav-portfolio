@@ -63,7 +63,7 @@ const About = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
           >
             <p className="text-slate-300 leading-relaxed mb-5">
-              I am a passionate AI/ML Engineer and NLP Researcher at IIT Bombay, driven by an obsession with building intelligent systems that genuinely understand human language. My work sits at the frontier of Deep Learning, Transformers, and multilingual NLP.
+              I am a passionate AI/ML Engineer and NLP Researcher at MITS Gwalior, driven by an obsession with building intelligent systems that genuinely understand human language. My work sits at the frontier of Deep Learning, Transformers, and multilingual NLP.
             </p>
             <p className="text-slate-400 leading-relaxed mb-5">
               Currently publishing research on Hindi Part-of-Speech tagging using MuRIL — a multilingual transformer — combined with CRF decoders and novel subword decoding strategies. My goal: push state-of-the-art NLP for low-resource Indian languages.

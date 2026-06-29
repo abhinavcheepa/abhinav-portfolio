@@ -22,11 +22,11 @@ function App() {
     <HelmetProvider>
       <Helmet>
         <title>Abhinav Cheepa — AI/ML Engineer & NLP Researcher</title>
-        <meta name="description" content="AI/ML Engineer, NLP Researcher at IIT Bombay. Building intelligent AI systems, publishing multilingual NLP research targeting ACL 2025." />
+        <meta name="description" content="AI/ML Engineer, NLP Researcher at MITS Gwalior. Building intelligent AI systems, publishing multilingual NLP research targeting ACL 2025." />
         <meta property="og:title" content="Abhinav Cheepa — AI/ML Engineer" />
-        <meta property="og:description" content="AI/ML Engineer, NLP Researcher at IIT Bombay. ACL 2025 research on Hindi POS Tagging." />
+        <meta property="og:description" content="AI/ML Engineer, NLP Researcher at MITS Gwalior. ACL 2025 research on Hindi POS Tagging." />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="keywords" content="AI, ML, NLP, IIT Bombay, Hindi POS Tagging, MuRIL, Transformers, Deep Learning" />
+        <meta name="keywords" content="AI, ML, NLP, MITS Gwalior, Hindi POS Tagging, MuRIL, Transformers, Deep Learning" />
       </Helmet>
 
       {!loaded && <LoadingScreen onComplete={handleLoad} />}
