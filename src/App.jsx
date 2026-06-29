@@ -1,19 +1,21 @@
+import "./App.css";
+import bg from "./assets/bg.jpg";
 import Navbar from "./components/Navbar";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
-import Projects from "./sections/Projects";
+import Work from "./sections/Work";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
-import "./App.css";
 
 function App() {
   return (
     <>
+      <img src={bg} alt="Background" loading="eager" className="background" />
       <Navbar />
-      <main style={{ paddingBottom: "8vh" }}>
+      <main>
         <Hero />
         <About />
-        <Projects />
+        <Work />
         <Contact />
       </main>
       <Footer />
