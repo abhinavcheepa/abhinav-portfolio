@@ -1,12 +1,93 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="220" viewBox="0 0 400 220">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="420" viewBox="0 0 400 420">
   <defs>
-    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d0d1a"/>
-      <stop offset="1" stop-color="#1a0533"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#050816"/>
+    </linearGradient>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#10b98122"/>
+      <stop offset="1" stop-color="#05966922"/>
     </linearGradient>
   </defs>
-  <rect width="400" height="220" fill="url(#g2)"/>
-  <rect x="1" y="1" width="398" height="218" fill="none" stroke="#3b0764" stroke-width="1.5"/>
-  <text x="200" y="120" text-anchor="middle" font-size="70" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🧬</text>
-  <text x="200" y="170" text-anchor="middle" font-size="16" font-family="monospace" fill="#6b7280">POS</text>
+
+  <!-- Background -->
+  <rect width="400" height="420" fill="url(#bg)" rx="12"/>
+  <rect width="400" height="420" fill="none" stroke="#10b98140" stroke-width="1.5" rx="12"/>
+
+  <!-- Header band -->
+  <rect width="400" height="110" fill="url(#header)" rx="12"/>
+  <rect y="98" width="400" height="12" fill="url(#header)"/>
+  <rect x="0" y="108" width="400" height="1" fill="#10b98130"/>
+
+  <!-- Grid lines -->
+  <line x1="0" y1="120" x2="400" y2="120" stroke="#1e293b" stroke-width="0.5"/><line x1="0" y1="160" x2="400" y2="160" stroke="#1e293b" stroke-width="0.5"/><line x1="0" y1="200" x2="400" y2="200" stroke="#1e293b" stroke-width="0.5"/><line x1="0" y1="240" x2="400" y2="240" stroke="#1e293b" stroke-width="0.5"/><line x1="0" y1="280" x2="400" y2="280" stroke="#1e293b" stroke-width="0.5"/><line x1="0" y1="320" x2="400" y2="320" stroke="#1e293b" stroke-width="0.5"/><line x1="0" y1="360" x2="400" y2="360" stroke="#1e293b" stroke-width="0.5"/><line x1="0" y1="400" x2="400" y2="400" stroke="#1e293b" stroke-width="0.5"/>
+
+  <!-- Icon -->
+  <text x="24" y="68" font-size="40" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🔬</text>
+
+  <!-- Title -->
+  <text x="80" y="48" font-size="18" font-weight="700" fill="white" font-family="monospace">Hindi POS Framework</text>
+  <text x="80" y="68" font-size="11" fill="#10b981" font-family="monospace">4 Decoding Strategies · CUDA</text>
+
+  <!-- Top-right accent line -->
+  <rect x="340" y="0" width="3" height="110" fill="#10b981" rx="2" opacity="0.6"/>
+
+  <!-- Metric pills -->
+  <rect x="16" y="118" width="110" height="26" rx="13" fill="#10b98118" stroke="#10b98140" stroke-width="1"/>
+  <text x="71" y="135" font-size="10" fill="#10b981" font-family="monospace" text-anchor="middle">zero_shot</text>
+
+  <rect x="140" y="118" width="110" height="26" rx="13" fill="#05966918" stroke="#05966940" stroke-width="1"/>
+  <text x="195" y="135" font-size="10" fill="#059669" font-family="monospace" text-anchor="middle">lbs_weighted</text>
+
+  <rect x="264" y="118" width="110" height="26" rx="13" fill="#10b98118" stroke="#10b98140" stroke-width="1"/>
+  <text x="319" y="135" font-size="10" fill="#10b981" font-family="monospace" text-anchor="middle">HDTB</text>
+
+  <!-- Section label -->
+  <text x="20" y="248" font-size="10" fill="#475569" font-family="monospace" letter-spacing="2">METRICS</text>
+  <line x1="80" y1="243" x2="380" y2="243" stroke="#1e293b" stroke-width="1"/>
+
+  
+        <text x="20" y="260" font-size="11" fill="#94a3b8" font-family="monospace">zero_shot</text>
+        <rect x="20" y="266" width="340" height="8" rx="4" fill="#1e293b"/>
+        <rect x="20" y="266" width="278" height="8" rx="4" fill="url(#bar0)"/>
+        <text x="370" y="274" font-size="10" fill="#10b981" font-family="monospace">82%</text>
+        <defs>
+          <linearGradient id="bar0" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0" stop-color="#10b981"/>
+            <stop offset="1" stop-color="#059669"/>
+          </linearGradient>
+        </defs>
+        <text x="20" y="296" font-size="11" fill="#94a3b8" font-family="monospace">lookback</text>
+        <rect x="20" y="302" width="340" height="8" rx="4" fill="#1e293b"/>
+        <rect x="20" y="302" width="295" height="8" rx="4" fill="url(#bar1)"/>
+        <text x="370" y="310" font-size="10" fill="#10b981" font-family="monospace">87%</text>
+        <defs>
+          <linearGradient id="bar1" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0" stop-color="#10b981"/>
+            <stop offset="1" stop-color="#059669"/>
+          </linearGradient>
+        </defs>
+        <text x="20" y="332" font-size="11" fill="#94a3b8" font-family="monospace">lbs</text>
+        <rect x="20" y="338" width="340" height="8" rx="4" fill="#1e293b"/>
+        <rect x="20" y="338" width="309" height="8" rx="4" fill="url(#bar2)"/>
+        <text x="370" y="346" font-size="10" fill="#10b981" font-family="monospace">91%</text>
+        <defs>
+          <linearGradient id="bar2" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0" stop-color="#10b981"/>
+            <stop offset="1" stop-color="#059669"/>
+          </linearGradient>
+        </defs>
+        <text x="20" y="368" font-size="11" fill="#94a3b8" font-family="monospace">lbs_weighted</text>
+        <rect x="20" y="374" width="340" height="8" rx="4" fill="#1e293b"/>
+        <rect x="20" y="374" width="319" height="8" rx="4" fill="url(#bar3)"/>
+        <text x="370" y="382" font-size="10" fill="#10b981" font-family="monospace">94%</text>
+        <defs>
+          <linearGradient id="bar3" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0" stop-color="#10b981"/>
+            <stop offset="1" stop-color="#059669"/>
+          </linearGradient>
+        </defs>
+
+  <!-- Bottom glow -->
+  <ellipse cx="200" cy="420" rx="150" ry="20" fill="#10b981" opacity="0.06"/>
 </svg>
